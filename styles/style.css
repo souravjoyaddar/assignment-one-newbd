@@ -77,19 +77,19 @@ main section {
   background-color: #006a50;
 }
 .banner-btn:hover {
-  background-color: #cd5c5c;
+  background-color: #ff0000;
   color: #ffffff;
 }
 .banner-img {
   padding: 80px 0px;
 }
-/* future section styles */
-.section-title {
+/* future vision section styles */
+.future-section-title {
   font-weight: bold;
   font-size: 40px;
   color: #0e0e0e;
 }
-.section-description {
+.future-section-description {
   font-size: 16px;
   line-height: 24px;
   color: #0e0e0e;
@@ -160,4 +160,18 @@ main section {
 .yellow-card-btn:hover {
   background-color: #ad3493;
   color: #ffffff;
+}
+
+/* news section styles  */
+
+.news-title {
+  font-weight: bold;
+  font-size: 40px;
+  color: #0e0e0e;
+}
+.news-description {
+  margin: 24px 0px 32px 0px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e0e0e;
 }
