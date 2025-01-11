@@ -7,6 +7,12 @@ body {
   max-width: 1280px;
   margin: 0 auto;
 }
+
+/* shared styles  */
+.btn-cursor {
+  cursor: pointer;
+}
+
 /* nav styles  */
 .nav-bar {
   display: flex;
@@ -25,4 +31,42 @@ body {
   border: 1px solid #006a50;
   border-radius: 8px;
   color: #006a50;
+  background-color: white;
+}
+/* banner styles */
+.banner-bg {
+  background-color: #c6e4d6;
+  border-radius: 24px;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  gap: 64px;
+  padding: 0px 64px;
+}
+.banner-info {
+  padding: 117px 0px;
+}
+.banner-header {
+  font-weight: medium;
+  font-size: 24px;
+  color: #0e0e0e;
+}
+.banner-text {
+  font-weight: bold;
+  font-size: 56px;
+  color: #0e0e0e;
+  margin: 18px 0px 24px 0px;
+}
+.banner-btn {
+  font-weight: 600;
+  font-size: 18px;
+  padding: 17px 34px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  background-color: #006a50;
+}
+.banner-img {
+  padding: 80px 0px;
 }
