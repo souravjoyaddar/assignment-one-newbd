@@ -38,6 +38,10 @@ main section {
   color: #006a50;
   background-color: white;
 }
+.nav-btn:hover {
+  background-color: #205c33;
+  color: #ffffff;
+}
 /* banner styles */
 .banner-bg {
   background-color: #c6e4d6;
@@ -71,6 +75,10 @@ main section {
   border: none;
   border-radius: 8px;
   background-color: #006a50;
+}
+.banner-btn:hover {
+  background-color: #cd5c5c;
+  color: #ffffff;
 }
 .banner-img {
   padding: 80px 0px;
@@ -127,13 +135,29 @@ main section {
   font-weight: 600;
   font-size: 16px;
   color: #ffffff;
+  cursor: pointer;
+}
+.blue-btn {
+  margin-top: 24px;
 }
 .blue-card-btn {
   background-color: #5490f5;
 }
+.blue-card-btn:hover {
+  background-color: #6a3896;
+  color: #ffffff;
+}
 .green-card-btn {
   background-color: #09a15c;
 }
+.green-card-btn:hover {
+  background-color: #fe0101;
+  color: #ffffff;
+}
 .yellow-card-btn {
   background-color: #ffc239;
+}
+.yellow-card-btn:hover {
+  background-color: #ad3493;
+  color: #ffffff;
 }
