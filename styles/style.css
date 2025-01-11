@@ -9,6 +9,11 @@ body {
 }
 
 /* shared styles  */
+
+main section {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
 .btn-cursor {
   cursor: pointer;
 }
@@ -69,4 +74,66 @@ body {
 }
 .banner-img {
   padding: 80px 0px;
+}
+/* future section styles */
+.section-title {
+  font-weight: bold;
+  font-size: 40px;
+  color: #0e0e0e;
+}
+.section-description {
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e0e0e;
+  margin: 24px 0px 32px 0px;
+}
+.vision-cards {
+  display: flex;
+  gap: 24px;
+}
+.blue-card {
+  background-color: rgba(84, 144, 245, 0.2);
+  padding: 32px;
+  border-radius: 16px;
+}
+.green-card {
+  background-color: rgba(198, 228, 214, 1);
+  padding: 32px;
+  border-radius: 16px;
+}
+.yellow-card {
+  background-color: rgba(247, 235, 207, 1);
+  padding: 32px;
+  border-radius: 16px;
+}
+.card-description {
+  padding: 24px 0px;
+}
+.card-description .card-title {
+  padding-bottom: 12px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #0e0e0e;
+}
+.card-description .card-sub-title {
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e0e0e;
+}
+.card-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+}
+.blue-card-btn {
+  background-color: #5490f5;
+}
+.green-card-btn {
+  background-color: #09a15c;
+}
+.yellow-card-btn {
+  background-color: #ffc239;
 }
