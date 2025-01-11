@@ -28,6 +28,8 @@ main section {
 .nav-title {
   font-weight: bold;
   font-size: 32px;
+  border: none;
+  background-color: #ffffff;
 }
 .nav-btn {
   font-weight: 600;
